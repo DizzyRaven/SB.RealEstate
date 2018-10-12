@@ -3,7 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2019
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dynamics", "Dynamics", "{4D87D620-99F2-4F0F-AE73-A63F922C7A86}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{191EE132-60EF-4917-B12B-A53F8A958F5F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SB.Tests", "SB.Tests\SB.Tests.csproj", "{DF8786CC-C158-494C-BF98-8502288DD069}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DF8786CC-C158-494C-BF98-8502288DD069}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF8786CC-C158-494C-BF98-8502288DD069}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF8786CC-C158-494C-BF98-8502288DD069}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF8786CC-C158-494C-BF98-8502288DD069}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
